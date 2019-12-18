@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/crystal_blue">
+
+    <RadioGroup
+        android:id="@+id/rb_group1"
+        android:layout_width="407dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp">
+
+        <RadioButton
+            android:id="@+id/endgame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Avengers - Endgame" />
+
+        <RadioButton
+
+            android:id="@+id/empire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Star Wars - The Empire Strikes Back" />
+
+
+        <RadioButton
+            android:id="@+id/toy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Toy Story" />
+
+        <RadioButton
+            android:id="@+id/nemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Finding Nemo" />
+
+        <RadioButton
+            android:id="@+id/incredibles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="The Incredibles" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/movie"
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:text="Current Movie"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/qq"
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz Question"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/choices"
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:text="Possible Choices"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choices"
+        android:text="Select Answer:" />
+
+    <RadioGroup
+        android:id="@+id/rb_group2"
+        android:layout_width="407dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp">
+
+        <RadioButton
+            android:id="@+id/a"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="A" />
+
+        <RadioButton
+
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="B" />
+
+
+        <RadioButton
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="C" />
+
+        <RadioButton
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="D" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="422dp"
+        android:layout_height="match_parent"
+        android:text="0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

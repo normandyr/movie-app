@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/the_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:alpha="1"
+
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_centerVertical="true"
+
+        android:layout_marginStart="15dp"
+
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginTop="35dp"
+        android:alpha="1"
+
+        android:background="@color/crystal_blue_ligth"
+        android:padding="50dp"
+        android:text="Pick the Movie"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

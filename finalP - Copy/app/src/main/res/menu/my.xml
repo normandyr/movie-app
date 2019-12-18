@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.missouristate.bryson.finalp.MainActivity">
+    <item
+        android:id="@+id/picture"
+        android:title="Take Picture"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/quiz"
+        android:title="Movie Quiz"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/showtimes"
+        android:title="Movie Showtimes"
+        app:showAsAction="ifRoom"/>
+</menu>
